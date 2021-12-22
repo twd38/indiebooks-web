@@ -23,7 +23,8 @@ module.exports = {
         white: '#fff'
       },
       fontFamily: {
-        'merriweather': ['Merriweather', 'serif']
+        'merriweather': ['Merriweather', 'serif'],
+        'heebo': ['Heebo', 'sans-serif']
       }
     },
   },
