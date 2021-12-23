@@ -9,8 +9,8 @@ import Link from 'next/link'
 
 export default function Nav() {
   return (
-    <Popover className="relative bg-white">
-      <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+    <Popover className="bg-secondary sticky top-0 z-50">
+      <div className="flex justify-between items-center px-4 py-6 sm:px-6 xl:px-0 md:justify-start md:space-x-10 lg:max-w-6xl mx-auto">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link href="/">
             <a>

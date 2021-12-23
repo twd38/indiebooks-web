@@ -5,7 +5,7 @@ export const siteTitle = 'IndieBooks - Browse on Amazon,  buy from your local bo
 
 export default function Layout({ children }) {
   return (
-    <div className='mx-auto max-w-7xl'>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main>
-        <Nav />
+        <Nav/>
         {children}
       </main>
     </div>
