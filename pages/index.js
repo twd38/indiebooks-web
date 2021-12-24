@@ -59,8 +59,8 @@ export default function Home() {
           <section>
             <div className="bg-white px-4 py-8 sm:px-6 lg:py-10">
               <h1 className="block text-gray-900 text-center font-merriweather font-bold text-4xl p-8">Support your favorite bookstores</h1>
-              <div className="flex justify-between mx-auto max-w-6xl p-8">
-                <div className="h-32 w-48 relative"> 
+              <div className="grid justify-items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mx-auto max-w-6xl p-8">
+                <div className="h-28 w-36 relative"> 
                   <Image
                     src="/images/mcnallyjackson.jpg"
                     alt="Picture of the author"
@@ -114,7 +114,7 @@ export default function Home() {
           </section>
 
           <section >
-            <div className="flex flex-col items-center bg-secondary px-4 pt-8 sm:px-6 lg:pt-10">
+            <div className="flex md:flex-col items-center bg-secondary px-4 pt-8 sm:px-6 lg:pt-10">
               <div className="md:flex md:justify-between md:max-w-6xl p-8">
                 <InfoBlock 
                   title="2000+ Independent Bookstores"
