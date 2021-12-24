@@ -134,9 +134,9 @@ export default function Home() {
 
           <section>
             <div className="bg-white px-4 py-8 sm:px-6 lg:py-12">
-              <div className='grid justify-items-left grid-cols-2 mx-auto max-w-6xl'>
+              <div className='grid justify-items-left grid-cols-1 md:grid-cols-2 mx-auto max-w-6xl'>
                 <div>
-                  <h1 className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl sm:text-left lg:p-4">
+                  <h1 className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center py-6 sm:text-5xl sm:text-left">
                       <span className="block text-gray-900 leading-tight">How it Works</span>
                   </h1>
                   <HowItWorks 
