@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Image from 'next/image'
 import InfoBlock from '../components/infoBlock'
+import HowItWorks from '../components/howItWorks'
 
 export default function Home() {
   return (
@@ -20,9 +21,8 @@ export default function Home() {
               <div className="lg:grid lg:grid-cols-12 lg:gap-8 max-w-6xl">
                 <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                   <h1>
-                    <span className="mt-1 block text-4xl tracking-tight font-merriweather font-bold sm:text-5xl">
-                      <span className="block text-gray-900 leading-tight">Browse on Amazon,</span>
-                      <span className="block text-gray-900 leading-tight">buy from your local bookstore</span>
+                    <span className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl sm:text-left lg:p-4">
+                      <span className="block text-gray-900 leading-tight">Browse on Amazon, buy from your local bookstore</span>
                     </span>
                   </h1>
                   <div className="mt-8 sm:max-w-lg mx-auto text-center lg:text-left lg:mx-0">
@@ -57,10 +57,10 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="bg-white px-4 py-8 sm:px-6 lg:py-10">
-              <h1 className="block text-gray-900 text-center font-merriweather font-bold text-4xl p-8">Support your favorite bookstores</h1>
-              <div className="grid justify-items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mx-auto max-w-6xl p-8">
-                <div className="h-28 w-36 relative"> 
+            <div className="bg-white px-4 py-8 sm:px-6 lg:py-12">
+              <h1 className="block text-gray-900 text-center font-merriweather font-bold text-3xl p-6">Support your favorite bookstores</h1>
+              <div className="grid justify-items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mx-auto max-w-6xl p-4">
+                <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/mcnallyjackson.jpg"
                     alt="Picture of the author"
@@ -68,7 +68,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <div className="h-28 w-36 relative"> 
+                <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/bookpeople.png"
                     alt="Picture of the author"
@@ -76,7 +76,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <div className="h-28 w-36 relative"> 
+                <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/booksinc.png"
                     alt="Picture of the author"
@@ -84,7 +84,7 @@ export default function Home() {
                     objectFit="contain" // change to suit your needs
                   />
                 </div>
-                <div className="h-28 w-36 relative"> 
+                <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/greenlightlogo.gif"
                     alt="Picture of the author"
@@ -92,7 +92,7 @@ export default function Home() {
                     objectFit="contain" // change to suit your needs
                   />
                 </div>
-                <div className="h-28 w-36 relative"> 
+                <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/volumes.png"
                     alt="Picture of the author"
@@ -114,8 +114,8 @@ export default function Home() {
           </section>
 
           <section >
-            <div className="flex md:flex-col items-center bg-secondary px-4 pt-8 sm:px-6 lg:pt-10">
-              <div className="md:flex md:justify-between md:max-w-6xl p-8">
+            <div className="flex md:flex-col items-center bg-secondary px-4 py-8 sm:px-6 lg:pt-10">
+              <div className="md:flex md:justify-between md:max-w-6xl">
                 <InfoBlock 
                   title="2000+ Independent Bookstores"
                   body="IndieBooks is powered by a database of over 2000 independent bookstores located across the US."  
@@ -128,6 +128,38 @@ export default function Home() {
                   title="Always Free"
                   body="IndieBooks is always free! Install our extension at the Google Chrome extension marketplace and start supporting your favorite independent bookstores today!"  
                 />
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div className="bg-white px-4 py-8 sm:px-6 lg:py-12">
+              <div className='grid justify-items-left grid-cols-2 mx-auto max-w-6xl'>
+                <div>
+                  <h1 className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl sm:text-left lg:p-4">
+                      <span className="block text-gray-900 leading-tight">How it Works</span>
+                  </h1>
+                  <HowItWorks 
+                    title="Install browser extension for free"
+                    body='Click "Get Started" on this page and install the extension from the Google Chrome marketplace.'
+                  />
+                  <HowItWorks 
+                    title="One-click Search"
+                    body="After you find the book you are looking for on Amazon, it's as easy as one click to search for the same book at your local bookstore."
+                  />
+                  <HowItWorks 
+                    title="Always Free"
+                    body='IndieBooks is always free! Install our extension at the Google Chrome extension marketplace and start supporting your favorite independent bookstores today!'
+                  />
+                </div>
+                <div className="h-96 w-96 relative"> 
+                  <Image
+                    src="/images/hero.png"
+                    alt="Picture of the author"
+                    layout="fill" // required
+                    objectFit="contain" // change to suit your needs
+                  />
+                </div>
               </div>
             </div>
           </section>
