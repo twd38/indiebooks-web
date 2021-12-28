@@ -23,7 +23,7 @@ export default function Home() {
               <div className="lg:grid lg:grid-cols-12 lg:gap-8 max-w-6xl">
                 <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                   <h1>
-                    <span className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl sm:text-left lg:p-4">
+                    <span className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl lg:text-left lg:pb-4 lg: pr-2">
                       <span className="block text-gray-900 leading-tight">Browse on Amazon, buy from your local bookstore</span>
                     </span>
                   </h1>
