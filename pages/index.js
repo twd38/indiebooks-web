@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import Image from 'next/image'
 import InfoBlock from '../components/infoBlock'
 import HowItWorks from '../components/howItWorks'
+import Features from '../components/features'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -133,50 +135,12 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="bg-white px-4 py-8 sm:px-6 lg:py-12">
-              <div className='grid justify-items-left grid-cols-1 md:grid-cols-2 mx-auto max-w-6xl'>
-                <div>
-                  <h1 className="mt-1 block text-4xl tracking-tight font-merriweather font-bold text-center py-6 sm:text-5xl sm:text-left">
-                      <span className="block text-gray-900 leading-tight">How it Works</span>
-                  </h1>
-                  <HowItWorks 
-                    title="Install browser extension for free"
-                    body='Click "Get Started" on this page and install the extension from the Google Chrome marketplace.'
-                  />
-                  <HowItWorks 
-                    title="One-click Search"
-                    body="After you find the book you are looking for on Amazon, it's as easy as one click to search for the same book at your local bookstore."
-                  />
-                  <HowItWorks 
-                    title="Always Free"
-                    body='IndieBooks is always free! Install our extension at the Google Chrome extension marketplace and start supporting your favorite independent bookstores today!'
-                  />
-                </div>
-                <div className="relative"> 
-                  <Image
-                    src="/images/hero.png"
-                    alt="Picture of the author"
-                    layout="fill" // required
-                    objectFit="contain" // change to suit your needs
-                  />
-                </div>
-              </div>
-            </div>
+            <Features />
           </section>
 
         </main>
-
-        <footer className="flex items-center justify-center w-full h-24 border-t mt-64">
-          <a
-            className="flex items-center justify-center"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-          </a>
-        </footer>
+        <Footer />
+        
       </div>
     </Layout>
   )
