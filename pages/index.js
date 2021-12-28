@@ -152,7 +152,7 @@ export default function Home() {
                     body='IndieBooks is always free! Install our extension at the Google Chrome extension marketplace and start supporting your favorite independent bookstores today!'
                   />
                 </div>
-                <div className="h-96 w-96 relative"> 
+                <div className="relative"> 
                   <Image
                     src="/images/hero.png"
                     alt="Picture of the author"
