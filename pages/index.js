@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Image from 'next/image'
 import InfoBlock from '../components/infoBlock'
-import HowItWorks from '../components/howItWorks'
 import Features from '../components/features'
+import Tweets from '../components/tweets'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
           </section>
 
           <section>
-            <div className="bg-white px-4 py-8 sm:px-6 lg:py-12">
+            <div className="bg-white px-4 py-8 sm:px-6 lg:py-24">
               <h1 className="block text-gray-900 text-center font-merriweather font-bold text-3xl p-6">Support your favorite bookstores</h1>
               <div className="grid justify-items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mx-auto max-w-6xl p-4">
                 <div className="h-28 w-32 relative"> 
@@ -116,7 +116,7 @@ export default function Home() {
           </section>
 
           <section >
-            <div className="flex md:flex-col items-center bg-secondary px-4 py-8 sm:px-6 lg:pt-10">
+            <div className="flex md:flex-col items-center bg-secondary px-4 py-8 sm:px-6 lg:py-24">
               <div className="md:flex md:justify-between md:max-w-6xl">
                 <InfoBlock 
                   title="2000+ Independent Bookstores"
@@ -136,6 +136,23 @@ export default function Home() {
 
           <section>
             <Features />
+          </section>
+          <section>
+            <Tweets />
+          </section>
+
+          <section>
+            <div className="flex flex-col px-4 py-8 sm:px-6 lg:py-24">
+              <h1 className="block text-gray-900 text-center font-merriweather font-bold text-4xl p-4">Want to be an IndieBooks Hero?</h1>
+              <h3 className="block text-gray-500 text-center font-heebo text-xl pb-8">Install the IndieBooks Chrome extension and support your local bookstore.</h3>
+              <a
+                type="submit"
+                className="mt-3 px-6 py-3 mx-auto border border-transparent text-base font-medium font-heebo rounded-md text-white bg-primary-600 shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center"
+                href="https://chrome.google.com/webstore/detail/indiebooks/aldkdcekfjopagcgaoffopabifkioojd"
+              >
+                Add to Chrome
+              </a>
+            </div>
           </section>
 
         </main>

@@ -26,18 +26,18 @@ const transferFeatures = [
 ]
 
 
-export default function Example() {
+export default function Features() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div className="py-16 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
 
-        <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl font-merriweather font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+            <h3 className="text-2xl pb-8 font-merriweather font-extrabold text-gray-900 tracking-tight sm:text-4xl">
               How it works
             </h3>
 
-            <dl className="mt-10 space-y-10">
+            <dl className="space-y-10">
               {transferFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
@@ -52,34 +52,8 @@ export default function Example() {
             </dl>
           </div>
 
-          <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-            <svg
-              className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
-              width={784}
-              height={404}
-              fill="none"
-              viewBox="0 0 784 404"
-            >
-              <defs>
-                <pattern
-                  id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
-                  x={0}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
-            </svg>
-            <img
-              className="relative mx-auto"
-              width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
-              alt=""
-            />
+          <div className="relative lg:mt-0" aria-hidden="true">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UYTooLRcaXQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
 
