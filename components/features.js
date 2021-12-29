@@ -52,7 +52,7 @@ export default function Features() {
           </div>
 
           <div className="relative mt-16 lg:mt-0" aria-hidden="true">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UYTooLRcaXQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UYTooLRcaXQ?controls=0" title="IndieBooks Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </div>
         </div>
 
