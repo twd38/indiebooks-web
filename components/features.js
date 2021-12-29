@@ -51,8 +51,10 @@ export default function Features() {
             </dl>
           </div>
 
-          <div className="relative mt-16 lg:mt-0" aria-hidden="true">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UYTooLRcaXQ?controls=0" title="IndieBooks Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          <div className="relative mt-16 lg:mt-0" >
+            <video autoPlay loop controls style={{ width: '100%' }}>
+              <source src="/videos/indiebooks-demo.mp4" type="video/mp4"/>
+            </video>
           </div>
         </div>
 
