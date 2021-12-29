@@ -23,19 +23,18 @@ export default function Home() {
               <div className="lg:grid lg:grid-cols-12 lg:gap-8 max-w-6xl">
                 <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                   <h1>
-                    <span className="mt-1 block text-3xl md:text-4xl tracking-tight font-merriweather font-bold text-center sm:text-5xl lg:text-left lg:pb-4 lg: pr-2">
+                    <span className="mt-1 block text-3xl sm:text-5xl tracking-tight font-merriweather font-bold text-center lg:text-left lg: pr-2">
                       <span className="block text-gray-900 leading-tight">Browse on Amazon, buy from your local bookstore</span>
                     </span>
                   </h1>
-                  <div className="mt-8 sm:max-w-lg mx-auto text-center lg:text-left lg:mx-0">
+                  <div className="mt-6 sm:mt-8 sm:max-w-lg mx-auto text-center lg:text-left lg:mx-0">
                     <a
-                      type="submit"
-                      className="mt-3 w-auto px-6 py-3 border border-transparent text-base font-medium font-heebo rounded-md text-white bg-primary-600 shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center"
+                      className="w-auto px-6 py-3 border border-transparent text-base font-medium font-heebo rounded-md text-white bg-primary-600 shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:mt-0 sm:flex-shrink-0 inline-flex sm:items-center"
                       href="https://chrome.google.com/webstore/detail/indiebooks/aldkdcekfjopagcgaoffopabifkioojd"
                     >
                       Add to Chrome
                     </a>
-                    <p className="mt-3 font-heebo text-gray-500">IndieBooks is FREE, forever!</p>
+                    <p className="block mt-4 font-heebo text-gray-500">IndieBooks is FREE, forever!</p>
                   </div>
                 </div>
                 <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
@@ -146,7 +145,6 @@ export default function Home() {
               <h1 className="block text-gray-900 text-center font-merriweather font-bold text-3xl md:text-4xl p-4">Want to be an IndieBooks Hero?</h1>
               <h3 className="block text-gray-500 text-center font-heebo text-lg sm:text-xl pb-8">Install the IndieBooks Chrome extension and support your local bookstore.</h3>
               <a
-                type="submit"
                 className="px-6 py-3 mx-auto border border-transparent text-base font-medium font-heebo rounded-md text-white bg-primary-600 shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center"
                 href="https://chrome.google.com/webstore/detail/indiebooks/aldkdcekfjopagcgaoffopabifkioojd"
               >
