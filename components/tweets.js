@@ -34,7 +34,7 @@ const tweets = [
 export default function Tweets() {
   return(
     <div className="bg-secondary px-4 py-8 sm:px-6 lg:py-24">
-      <h1 className="block text-gray-900 text-center font-merriweather font-bold text-3xl p-6">Book lovers everywhere ❤️ IndieBooks</h1>
+      <h1 className="block text-gray-900 text-center font-merriweather font-bold text-2xl md:text-4xl p-6">Book lovers everywhere ❤️ IndieBooks</h1>
       <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 sm:gap-x-4 mx-auto max-w-6xl p-4">
       {tweets.map((item) => (
         <div key={item.id} className="w-full">

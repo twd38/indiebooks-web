@@ -29,11 +29,10 @@ const transferFeatures = [
 export default function Features() {
   return (
     <div className="py-16 overflow-hidden lg:py-24">
-      <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-
+      <div className="relative max-w-xl mx-auto px-6 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl pb-8 font-merriweather font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+            <h3 className="text-3xl md:text-4xl pb-8 font-merriweather font-extrabold text-gray-900 tracking-tight">
               How it works
             </h3>
 
@@ -52,7 +51,7 @@ export default function Features() {
             </dl>
           </div>
 
-          <div className="relative lg:mt-0" aria-hidden="true">
+          <div className="relative mt-16 lg:mt-0" aria-hidden="true">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/UYTooLRcaXQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
