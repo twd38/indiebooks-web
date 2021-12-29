@@ -41,8 +41,8 @@ export default function Home() {
                   <Image
                     priority
                     src="/images/hero.png"
-                    width={1333}
-                    height={1019}
+                    width={560}
+                    height={430}
                     alt="indiebooks-hero"
                   />
                 </div>
@@ -67,6 +67,7 @@ export default function Home() {
                     alt="Picture of the author"
                     layout="fill"
                     objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 <div className="h-28 w-32 relative"> 
@@ -75,38 +76,43 @@ export default function Home() {
                     alt="Picture of the author"
                     layout="fill"
                     objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/booksinc.png"
                     alt="Picture of the author"
-                    layout="fill" // required
-                    objectFit="contain" // change to suit your needs
+                    layout="fill"
+                    objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/greenlightlogo.gif"
                     alt="Picture of the author"
-                    layout="fill" // required
-                    objectFit="contain" // change to suit your needs
+                    layout="fill"
+                    objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 <div className="h-28 w-32 relative"> 
                   <Image
                     src="/images/volumes.png"
                     alt="Picture of the author"
-                    layout="fill" // required
-                    objectFit="contain" // change to suit your needs
+                    layout="fill"
+                    objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 <div className="h-28 w-36 relative"> 
                   <Image
                     src="/images/adastechnicalbooksandcafe.png"
                     alt="Picture of the author"
-                    layout="fill" // required
-                    objectFit="contain" // change to suit your needs
+                    layout="fill"
+                    objectFit="contain"
+                    sizes="150px"
                   />
                 </div>
                 
